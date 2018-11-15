@@ -1,4 +1,4 @@
 # majordomo-CO-device
 Simple Devices addon (CO sensor)
 
-https://github.com/Anisan/majordomo-battery-device
+https://connect.smartliving.ru/tasks/321.html
