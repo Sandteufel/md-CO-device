@@ -1,0 +1,18 @@
+<link href="/3rdparty/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+<style>
+.device-icon.CO {
+    background-image: none;
+    padding: 5px;
+    font-size:25px;
+    text-align: center;
+}
+
+</style>
+<div class='device-widget sensor %.alive|"offline;online"%' onclick="var url=('/pChart/?p[]=%.object_title%'+'.value&n[]=CO&p[]=%.object_title%'+'.valueCO&n[]=СО&op=log&subop=24h&minimal=1');$.fancybox.open({ src: url, type: 'iframe' });return false;">
+<div class="device-icon CO">
+    <i class="fa fa-cloud" style="color: rgb(%.color%)"></i> 
+</div>
+<div class="device-header">%.value% ppm
+</div>
+<div class="device-details">%.object_description%</div>
+</div>
