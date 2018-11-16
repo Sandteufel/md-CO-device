@@ -1,11 +1,11 @@
 <?php
 
 $this->device_types['sensor_CO'] = array(
-    'TITLE'=>"датчик углекислого газа",
+    'TITLE'=>"Датчик углекислого газа",
     'PARENT_CLASS'=>'SSensors',
     'CLASS'=>'SCOSensors',
     'METHODS'=>array(
-        'valueUpdated'=>array('DESCRIPTION'=>'Value Updated','CALL_PARENT'=>1), 
+        'valueUpdated'=>array('DESCRIPTION'=>'Value Updated','CALL_PARENT'=>1),
     ));
 
 
