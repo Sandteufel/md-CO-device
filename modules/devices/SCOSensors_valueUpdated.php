@@ -11,7 +11,7 @@ if ($new_value < 2500){
 	$col_G = 255;
 	$col_R = round($col_R);
     } else {
-	$CO_B = 2500 - $new_value;
+	$new_value = 2500 - $new_value;
 	$col_G = $new_value * 0.17;
 	$col_G = round($col_G);
 	$col_R = 255;
